@@ -2,7 +2,9 @@
 
 // Summary And Greeting Section
 
+import React from "react";
 import emoji from "react-easy-emoji";
+import { SiCsharp } from "react-icons/si";
 
 const illustration = {
   animated: true, // set to false to use static SVG
@@ -94,6 +96,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire",
     },
+    // {
+    //   skillName: "C#",
+    //   fontAwesomeClassname: <SiCsharp color="#fff" size={24} />,
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
